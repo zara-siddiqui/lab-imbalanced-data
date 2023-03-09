@@ -8,9 +8,8 @@ We will be using the `files_for_lab/customer_churn.csv` dataset to build a churn
 
 1. Load the dataset and explore the variables.
 2. We will try to predict variable `Churn` using a logistic regression on variables `tenure`, `SeniorCitizen`,`MonthlyCharges`.
-3. Extract the target variable.
-4. Extract the independent variables and scale them.
-5. Build the logistic regression model.
-6. Evaluate the model.
-7. Even a simple model will give us more than 70% accuracy. Why?
-8. **Synthetic Minority Oversampling TEchnique (SMOTE)** is an over sampling technique based on nearest neighbors that adds new points between existing points. Apply `imblearn.over_sampling.SMOTE` to the dataset. Build and evaluate the logistic regression model. Is it there any improvement?
+3. Split the Dataset into X ('tenure', 'SeniorCitizen', 'MonthlyCharges') and y ('Churn')
+4. Build the logistic regression model.
+5. Evaluate the model.
+6. Even a simple model will give us more than 70% accuracy. Why?
+7. **Synthetic Minority Oversampling TEchnique (SMOTE)** is an over sampling technique based on nearest neighbors that adds new points between existing points. Apply `imblearn.over_sampling.SMOTE` to the dataset. Build and evaluate the logistic regression model. Is it there any improvement?
